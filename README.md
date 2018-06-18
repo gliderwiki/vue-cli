@@ -13,25 +13,7 @@ npm run dev
 
 # build for production with minification
 npm run build
-```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader)
-
-
-# VueJS
-Vue.JS Sample
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
@@ -44,6 +26,22 @@ npm run e2e
 
 # run all tests
 npm test
+
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader)
+
+
+# Vue init project with cli 
+
+
+``` bash
+# 설치 : sudo npm install vue-cli -global
+
+vue init webpack : 고급 웹팩 기능을 활용한 프포젝트 구성방식 
+vue init webpack-simple : 웹팩 최소 기능 (빠른 프로토타이핑)
+vue init simple : 최소 뷰 기능만 들어간 HTML 파일 1개 생성 
+vue init pwa : 웹팩 기반의 프로그래시브 웹 앱  지원 
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
